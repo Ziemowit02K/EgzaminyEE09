@@ -1,0 +1,57 @@
+#baner
+{
+	color:white;
+	text-align:center;
+	height: 330px;
+}
+#blok
+{
+	color:white;
+	text-align:center;
+	width:170px;
+	margin:5px;
+	border: 1px solid;
+	border-color:white;
+	border-radius:15px;
+	clear:both;
+}
+#blok:hover
+{
+	background-color:white;
+	color:black;
+}
+#blok_glowny
+{
+	color:white;
+}
+#blok_prawy
+{
+		background-color:WhiteSmoke;
+		width:70%;
+		height:150px;
+		float:left;
+}
+#blok_lewy
+{
+		background-color:WhiteSmoke;
+		width:30%;
+		height:150px;
+		text-align:center;
+		float:left;
+}
+body
+{
+	font-family: Verdana;
+	background-color:SeaGreen;
+}
+h3
+{
+	text-align:center;
+	letter-spacing:6px;
+	text-transform:capitalize;
+}
+#scriptPanel
+{
+	display:flex;
+	justify-content:center;
+}

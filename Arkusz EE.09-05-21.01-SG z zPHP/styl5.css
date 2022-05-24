@@ -1,0 +1,75 @@
+#F_Baner
+{
+	width:25%;
+	height:200px;
+	float:left;
+}
+#T_Baner
+{
+	width:25%;
+	height:200px;
+	float:right;
+}
+#S_Baner
+{
+	text-align:center;
+	width:50%;
+	height:200px;
+	font-size:250%;
+	float:left;
+}
+#MainPanel
+{
+	background-color:RGB(0,0,128);
+	padding:60px;
+	text-transform:uppercase;
+	clear:both;
+}
+#F_Footer
+{
+	text-align:center;
+	width:50%;
+	float:left;
+}
+#S_footer
+{
+	text-align:right;
+	width:50%;
+	padding-top:100px;
+	float:right;
+}
+body
+{
+	font-family:Garamond;
+	background-color:RGB(30,144,255);
+	color:white;
+}
+p
+{
+	padding:20px;
+	font-size:200%;
+	border: solid 1px;
+	border-color: RGB(192,192,192);
+}
+p:hover
+{
+	background-color:RGB(192,192,192);
+}
+table
+{
+	width:100%;
+	border-collapse:collapse;
+}
+td
+{
+	border:solid 1px;
+	border-color: RGB(192,192,192);
+	padding:10px;
+}
+th
+{
+	border:solid 1px;
+	border-color: RGB(192,192,192);
+	padding:10px;
+}
+
