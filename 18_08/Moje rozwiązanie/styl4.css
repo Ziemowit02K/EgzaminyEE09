@@ -1,0 +1,69 @@
+body
+{
+		font-family:Garamond;
+		margin:0px;
+		padding:0px;
+}
+#Baner
+{
+	background-color:SaddleBrown;
+	color:white;
+	text-align:center;
+	height:50px;
+	clear:both;
+}
+#Lewy
+{
+	background-color:Tan;
+	height:500px;
+	width:40%;
+	float:left;
+	
+}
+#Prawy1
+{
+	background-color:Tan;
+	height:250px;
+	float: left;
+	width:100%;
+	
+}
+#Prawy2
+{
+	background-color:Tan;
+	height:250px;
+	float:left;
+	width:100%;
+}
+.PrawyPanel
+{
+	float:left;
+	width:60%;
+}
+form
+{
+	background-color:SaddleBrown;
+	color:white;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+	width:300px;
+}
+#Stopka{
+    clear: both;
+    background-color: saddlebrown;
+    color:white;
+}
+input
+{
+	margin:5px;
+}
+label
+{
+	margin:5px;
+}
+p::before
+{
+	content: "STATUS ";
+}

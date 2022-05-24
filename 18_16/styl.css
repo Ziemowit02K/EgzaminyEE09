@@ -1,0 +1,62 @@
+body
+{
+	font-family:Georgia;
+}
+#Lewy
+{
+	background-color:Maroon;
+	color:white;
+	height:600px;
+	width:30%;
+	float:left;
+}
+#Prawy
+{
+	background-color:Maroon;
+	color:white;
+	height:600px;
+	width:70%;
+	overflow:auto;
+	float:left;
+}
+#Stopka
+{
+	background-color:DimGray;
+	color:white;
+	clear:both;
+}
+p
+{
+	padding:10px;
+}
+img
+{
+	padding:10px;
+	border:1px solid white;
+}
+#Indigo
+{
+	background-color:Indigo;
+}
+#SteelBlue
+{
+	background-color:SteelBlue;
+}
+#Olive
+{
+	background-color:Olive;
+}
+#Prawy > li
+{
+	float:right;
+}
+#Prawy > img
+{
+	float:left;
+	margin:20px;
+}
+#Prawy > p
+{
+	clear:both;
+}
+

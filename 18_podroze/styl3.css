@@ -1,0 +1,76 @@
+body
+{
+	font-family: Verdana;
+	margin:0px;
+	padding:0px;
+}
+#Baner
+{
+	background-color: rgb(205,92,92);
+	color: white;
+	text-align: center;
+	padding: 5px;
+	clear:both;
+}
+
+#Stopka
+{
+	background-color: rgb(205,92,92);
+	color: white;
+	text-align: center;
+	padding: 5px;
+	clear:both;
+}
+#Prawy
+{
+	background-color: rgb(250,235,219);
+	width: 25%;
+	height: 500px;
+	float:right;
+
+}
+#Lewy
+{
+	background-color: rgb(250,235,219);
+	width: 25%;
+	height: 500px;
+	float:left;
+
+}
+
+#srodkowy
+{
+	background-color: rgb(250,235,215);
+	width: 50%;
+	height: 500px;
+	float:left;
+}
+#Dane
+{
+	background-color: rgb(210,180,140);
+	color: white;
+	clear:both;
+}
+h2
+{
+	text-align:center;
+}
+h2::first-letter
+{
+	font-size:150%;
+}
+img
+{
+	height: 100px;
+	padding: 7px;
+	width: 100px;
+}
+img:hover
+{
+	background-color:RGB(210,180,140);
+}
+
+
+
+
+

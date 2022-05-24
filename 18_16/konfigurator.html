@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+	<html>
+		<head>
+			<meta charset="UTF-8">
+			<title>Style w JavaScript</title>
+			<link rel="stylesheet" href="styl.css">
+		</head>
+		
+		<body>
+			<div id="Lewy">
+				<h1>Konfigurator stylu</h1>
+					<p>Podaj kolor tła
+					<br/><input type="button" id="Indigo" value="Indigo" onclick="ZmianaKolorTlaIndigo()">
+						<input type="button" id="SteelBlue" value="SteelBlue" onclick="ZmianaKolorTlaSteel()">
+						<input type="button" id="Olive" value="Olive" onclick="ZmianaKolorTlaOlive()"></P>
+					<p>Podaj kolor czcionki<br/>
+							<select id="czcionka"onchange="ZmianaKolorCzcionki()">
+								<option value="White" id="a">White</option>
+								<option value="Tan" id="b">Tan</option>
+								<option value="Bisque" id="c">Bisque</option>
+								<option value="Plum" id="d">Plum</option>
+							</select></p>
+					<p>Podaj rozmiar czcionki w procentach np.200%<br/>
+					<input type="text" id="size" onchange="ZmianaRozmiatuCzcionki()" value="100"></p>
+					<p>Czy rysunek ma mieć ramkę?<br/>
+					<input type="checkbox" id="ramka1" checked onchange="Ramka()">Rysuj ramkę</p>
+					<p>Jaki jest typ punktora listy</p>
+					<br/><input type='radio' name="punktor"  id="dysk" checked onchange="PunktorListy()">dysk</br>
+						<input type='radio' name="punktor" id="kwadrat" onchange="PunktorListy()">kwadrat</br>
+						<input type='radio' name="punktor" id="okrag" onchange="PunktorListy()">okrąg</br>
+						
+			</div>
+			<div id="Prawy">
+				<img src="gibraltar.jpg" alt="półwysep Gibraltar" id="obraz">
+					<ul id="list">
+						<li>element 1</li>
+						<li>element 2</li>
+						<li>element 3</li>
+					</ul>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+			</div>
+			<div id="Stopka">
+				Autor: 00000000000
+			</div>
+			<script>
+				function ZmianaKolorTlaIndigo()
+				{
+					document.getElementById('Prawy').style.backgroundColor = "Indigo";
+				} 
+				function ZmianaKolorTlaSteel()
+				{
+					document.getElementById('Prawy').style.backgroundColor = "SteelBlue";
+				}
+				function ZmianaKolorTlaOlive()
+				{
+					document.getElementById('Prawy').style.backgroundColor = "Olive";
+				}
+				function ZmianaKolorCzcionki()
+				{
+					let wybor=document.getElementById('czcionka').value;
+						document.getElementById('Prawy').style.color=wybor;
+				}
+				function ZmianaRozmiatuCzcionki()
+				{
+					let wybor=document.getElementById('size').value;
+						document.getElementById('Prawy').style.fontSize = wybor+"%";
+				}
+				function Ramka()
+				{
+					if(document.getElementById('ramka1').checked)
+					{
+						document.getElementById('obraz').style.border='1px solid white';
+					}
+					else
+					{
+						document.getElementById('obraz').style.border="none";
+					}
+				}
+				function PunktorListy()
+				{
+					if(document.getElementById('dysk').checked)
+					{
+						document.getElementById('list').style.listStyle="disc";
+					}
+					else if(document.getElementById('kwadrat').checked)
+					{
+						document.getElementById('list').style.listStyle="square";
+					}
+					else
+					{
+						document.getElementById('list').style.listStyle="circle";
+					}
+				}
+			
+			</script>
+		</body>
+	</html>
