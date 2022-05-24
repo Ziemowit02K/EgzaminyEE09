@@ -1,0 +1,57 @@
+#baner
+{
+	color:white;
+	text-align:center;
+	height:370px;
+}
+#blok
+{
+	color:white;
+	text-align:center;
+	width:200px;
+	margin:10px;
+	border: solid 1px;
+	border-color:black;
+	border-radius: 10px;
+	float:left;
+}
+#blok:hover
+{
+	border-color:white;
+}
+#mecze
+{
+	display:flex;
+	justify-content:center;
+}
+#glowny
+{
+	background-color: WhiteSmoke;
+	height:50px;
+}
+#lewy
+{
+	background-color: WhiteSmoke;
+	height:230px;
+	width:70%;
+	float:left;
+}
+#prawy
+{
+	background-color:WhiteSmoke;
+	width:30%;
+	height:230px;
+	text-align:right;
+	float:left;
+}
+body
+{
+	font-family:Tahoma;
+	background-color:Crimson;
+}
+h2
+{
+	text-align:center;
+	letter-spacing:7px;
+	text-transform:capitalize;
+}
