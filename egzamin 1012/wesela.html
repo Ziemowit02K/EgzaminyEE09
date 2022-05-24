@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="UST-8">
+			<link rel="stylesheet" type="text/css" href="styl5.css">
+			<title>Dom Weselny</title>
+			<script>	
+					function Oblicz() 
+					{
+						var Guests = document.getElementById("CountOfGuests").value;
+						var suma;
+						suma = Guests*100;
+						if (document.getElementById("poprawiny").checked) 
+						{
+							suma *= 1.3;
+						}
+						document.getElementById("wynik").innerHTML = suma;
+					
+					}
+			</script>	
+		</head>
+		
+		<body>
+			<div id="baner">
+				<h1>
+					<img src="logo.png" alt="" height="70">
+						Dom Weselny zorganizuje wesele za Ciebie
+					<img src="logo.png" alt="" height="70">
+				</h1>
+			</div>
+			<div id="LeftPanel">
+				<h2>Dom Weselny</h2>
+					<p>ul. Przemysłowa 5</p>
+					<p>Kalisz</p>
+					<p><a href="logo.png">Pobierz logo</a></p>
+			</div>
+			<div id="MainPanel">
+				<h2>Oferujemy</h2>
+					<ul>
+						<li>Wesela</li>
+						<li>Bankiety</li>
+						<li>Konferencje</li>
+					</ul>
+			</div>
+			<div id="RightPanel">
+				<p><a href="Regulamin.txt">czytaj regulamin</a></p>		
+			</div>
+			<div id="DownPanel">		
+				<h2>Ile będzie kosztowało moje wesele?</h2>
+					<table>
+						<tr><td>Podaj liczbę gości: <input type="number" id="CountOfGuests"> </tr></td>
+						<tr><td><input type="checkbox" id="poprawiny">Wesele z poprawinami?</tr></td>
+						<tr><td><input type="button" value="Oblicz koszt" onclick="Oblicz()"></tr></td>
+					</table>
+					<p id="wynik"></p>
+						
+			</div>
+			<div id="footer">
+					Stronę internetową opracował: 0000000000
+			</div>
+		</body>
+	</html>
