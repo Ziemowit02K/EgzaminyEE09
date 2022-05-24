@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>	
+	<html>
+		<head>
+			<meta charset="UTF-8">
+			<title>Usługi kosmetyczne</title>
+			<link rel="stylesheet" href="styl.css">
+		</head>
+		
+		<body>
+		<div id="leftPanel">
+			<div id="Lewy1">
+				<h2>W ofercie</h2>
+					<ul>
+						<li><a href="twarz.html">Zabiegi na twarz</a>
+							<ol>
+								<li>Piling</li>
+								<li>Maska</li>
+								<li>Regulacja brwi</li>
+							</ol>
+						</li>
+						<li>Masaż</li>
+						<li>Diety oczyszczające</li>
+					</ul>
+					
+					<a href="index.html">Do strony głównej</a>
+			</div>
+			<div id="Lewy2">
+				<img src="obraz1.jpg" alt="Kosmetyczka">
+			</div>
+			</div>
+			<div id="rightPanel">
+			<div id="Prawy1">
+				<h1>Salon Kosmetyczny</h1>
+			</div>
+			
+			<div id="Prawy2">
+				<h2>Sprawdź cenę swojej wizyty</h2>
+					<label><input type="checkbox" id="piling" value="piling"> Piling</label><br/>
+					<label><input type="checkbox" id="maska" value="maska">Maska</label><br/>
+					<label><input type="checkbox" id="masaz" value="masaz">Masaż twarzy</label><br/>
+					<label><input type="checkbox" id="regulacja" value="regulacja">Regulacja brwi</label><br/>
+					<input type="button" value="Sprawdź cenę" id="button1" onclick="Sprawdz()">
+					<p id="wynik"> </p>
+					
+					
+					<script>
+						function Sprawdz()
+						{
+							var wynik = 0;
+							if(document.getElementById("piling").checked==true)
+							{
+								wynik+=45;
+							}
+							if(document.getElementById("maska").checked==true)
+							{
+								wynik+=30;
+							}
+							if(document.getElementById("masaz").checked==true)
+							{
+								wynik+=20;
+							}
+							if(document.getElementById("regulacja").checked==true)
+							{
+								wynik+=5;
+							}
+							document.getElementById("wynik").innerHTML="Cena zabiegów: " + wynik;
+							
+							wynik=0;
+						}
+					
+					
+					</script>
+					
+			</div>
+			</div>
+			
+			
+			
+			
+			<div id="stopka">
+				<p>Autor: 00000000000</p>
+			</div>
+		</body>
+	</html>

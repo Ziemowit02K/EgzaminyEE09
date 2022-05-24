@@ -1,0 +1,104 @@
+ <!DOCTYPE HTML>
+	<html>
+		<head>
+			<meta charset="UTF-8">
+				<title>Usługi fryzjerskie</title>
+				<link rel="stylesheet" href="styl2.css">
+		</head>
+		
+		<body>
+		<div id="LeftPanel">
+			<div id="F_left">
+				<a href="index.html">
+						<h2>
+							SALON FRYZJERSKI
+						</h2>
+				</a>
+				<img alt="Czesanie" src="obraz2.jpg">
+			</div>
+			
+		</div>
+		<div id="RightPanel">
+			<div id="F_right">
+				<h2>MENU</h2>
+			</div>
+			
+			
+			
+			<div id="S_right">
+				<ol>
+					<li>
+						<a href="fryzura.html">
+							Strzyżenie
+						</a>
+							<ul>
+								<li>krótkie</li>
+								<li>średnie</li>
+								<li>półdługie</li>
+								<li>długie</li>
+							</ul>
+					</li>
+					<li>
+						Czesanie
+					</li>
+					<li>
+						Koloryzacja
+					</li>
+				</ol>
+			</div>
+			<div id="T_right">
+				<img alt="Fryzjer" src="obraz1.jpg">
+			</div>
+			</div><div id="S_left">
+					<h3>Dziś promocja na strzyżenie włosów</h3>
+						<label>
+							<input type="radio" name="strzyzenie" value="Krótkie"
+							id="radio1">Krótkie
+						</label><br/>
+						<label>
+							<input type="radio" name="strzyzenie" value="Średnie" id="radio2">Średnie
+						</label><br/>
+						<label>
+							<input type="radio" name="strzyzenie" value="Półdługie" id="radio3">Półdługie
+						</label><br/>
+						<label>
+							<input type="radio" name="strzyzenie" value="Długie" id="radio4">Długie
+						</label><br/>
+						<input type="button" value="Odkryj promocję" onClick="Strzyzenie1()">
+						<p id="wynik"></p>
+						
+							<script>
+								function Strzyzenie1()
+								{
+									
+										if(document.getElementById("radio1").checked==true)
+										{
+											document.getElementById("wynik").innerHTML = "Cena strzyżenia: 25";
+										}
+										if(document.getElementById("radio2").checked==true)
+										{
+											document.getElementById("wynik").innerHTML = "Cena strzyżenia: 30";
+										}
+										if(document.getElementById("radio3").checked==true)
+										{
+											document.getElementById("wynik").innerHTML = "Cena strzyżenia: 40";
+										}
+										if(document.getElementById("radio4").checked==true)
+										{
+											document.getElementById("wynik").innerHTML = "Cena strzyżenia: 50";
+										}
+										
+								}
+							
+							
+							</script>
+					
+			</div>
+			<div id="footer">
+				<p>Autor: 000000000</p>
+			</div>
+			
+		</body>
+	
+	
+	</html>
