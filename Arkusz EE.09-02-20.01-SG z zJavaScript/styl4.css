@@ -1,0 +1,67 @@
+body
+{
+	font-family:Arial;
+}
+#lewy
+{
+	background-color: RGB(255,127,80);
+	color:white;
+	width:50%;
+	height:410px;
+	float:left;
+}
+#prawy
+{
+	background-color: RGB(255,127,80);
+	color:white;
+	width:50%;
+	height:410px;
+	float:left;
+}
+#baner
+{
+	background-color: RGB(220,220,220);
+	padding:20px;
+	text-align:center;
+}
+#glowny
+{
+	background-color: RGB(220,220,220);
+	padding:20px;
+	text-align:center;
+	clear:both;
+}
+#stopka_l
+{
+	background-color:RGB(255,127,80);
+	color:white;
+	width:50%;
+	height:100px;
+	float:left;
+}
+#stopka_p
+{
+	background-color:RGB(255,127,80);
+	color:white;
+	width:50%;
+	height:100px;
+	float:left;
+}
+tr
+{
+	border: solid 1px;
+	border-color: RGB(255,127,80);
+	padding:10px;
+	text-align:center;
+}
+td
+{
+	border: solid 1px;
+	border-color: RGB(255,127,80);
+	padding:10px;
+	text-align:center;
+}
+a
+{
+	color:white;
+}
