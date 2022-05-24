@@ -1,0 +1,59 @@
+body
+{
+	font-family:Georgia;
+}
+#DownPanel
+{
+	clear:both;
+	width:100%;
+	height:220px;
+
+}
+#BanerPanel
+{
+	background-color:DodgerBlue;
+	color:white;
+	padding:10px;
+	text-align:center;
+	clear:both;
+}
+#MainPanel
+{
+	background-color:LightBlue;
+	padding:100px;
+	clear:both;
+}
+#LeftPanel
+{
+	background-color:DodgerBlue;
+	color:white;
+	width:20%;
+	height:220px;
+	float:left;
+}
+#CenterPanel
+{
+	background-color:DodgerBlue;
+	color:white;
+	width:40%;
+	height:220px;
+	text-align:center;
+	float:left;
+}
+#RightPanel
+{
+	background-color:DodgerBlue;
+	color:white;
+	width:40%;
+	height:220px;
+	text-align:center;
+	float:left;
+}
+a
+{
+	border:dashed 1px;
+	background-color:Gold;
+	border-color:DimGray;
+	color:DarkRed;
+	padding:10px;
+}

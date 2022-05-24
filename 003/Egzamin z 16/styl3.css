@@ -1,0 +1,80 @@
+body
+{
+	font-family:Arial;
+}
+#MainBaner
+{
+	width:100%;
+	clear:both;
+}
+#MainFooter
+{
+	width:100%;
+	clear:both;
+}
+#LeftB
+{
+	background-color:SaddleBrown;
+	color:white;
+	height:100px;
+	width:55%;
+	float:left;
+}
+#CenterB
+{
+	background-color:SaddleBrown;
+	color:white;
+	height:100px;
+	width:25%;
+	float:left;
+}
+#RightB
+{
+	background-color:SaddleBrown;
+	color:white;
+	height:100px;
+	width:20%;
+	text-align:right;
+	float:left;
+}
+#LeftF
+{
+	background-color:SaddleBrown;
+	color:white;
+	height:100px;
+	width:55%;
+	float:left;
+}
+#CenterF
+{
+	background-color:SaddleBrown;
+	color:white;
+	height:100px;
+	width:25%;
+	float:left;
+}
+#RightF
+{
+	background-color:SaddleBrown;
+	color:white;
+	height:100px;
+	text-align:right;
+}
+#MainPanel
+{
+	background-color:Snow;
+	padding:70px;
+}
+a
+{
+	border:dotted 2px;
+	border-color:SaddleBrown;
+	background-color:Snow;
+	color:SaddleBrown;
+	padding:20px;
+	line-height:100px;
+}
+li
+{
+	text-transform:lowercase;
+}
